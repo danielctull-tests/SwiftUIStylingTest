@@ -6,7 +6,7 @@ struct Foo: View {
     @Environment(\.fooStyle) private var style
 
     var body: some View {
-        Text("")
+        style.makeBody()
     }
 }
 
